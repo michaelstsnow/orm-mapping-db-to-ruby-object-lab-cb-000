@@ -63,4 +63,25 @@ class Student
     sql = "DROP TABLE IF EXISTS students"
     DB[:conn].execute(sql)
   end
+
+  def all_students_in_grade_9
+    
+  end
+
+  def students_below_12th_grade
+    
+  end
+
+  def first_X_students_in_grade_10
+    
+  end
+
+  def first_student_in_grade_10
+    
+  end
+
+  def all_students_in_grade_X
+    
+  end
+
 end
